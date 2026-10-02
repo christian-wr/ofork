@@ -2100,7 +2100,7 @@ CREATE TABLE room_booking (
     create_time DATETIME NOT NULL,
     create_by VARCHAR (250) NOT NULL,
     change_time DATETIME NOT NULL,
-    change_by VARCHAR (250) NOT NULL
+    change_by VARCHAR (250) NOT NULL,
     PRIMARY KEY(id)
 );
 # ----------------------------------------------------------
